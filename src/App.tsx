@@ -282,26 +282,37 @@ function Home() {
                I'm currently available for freelance projects. Whether you need a fresh brand identity, a striking logo, or a full digital marketing strategy — let's make it happen.
             </p>
 
-            <div className="grid sm:grid-cols-2 gap-4 mb-10 text-left">
-               <a href="tel:0933664300" className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/30 rounded-2xl p-5 transition-all duration-300 backdrop-blur-sm">
-                  <div className="w-12 h-12 rounded-full bg-green-400/20 flex items-center justify-center flex-shrink-0">
-                     <span className="w-3 h-3 rounded-full bg-green-400 animate-pulse block"></span>
-                  </div>
-                  <div>
-                     <div className="text-[10px] uppercase tracking-widest text-white/40 font-bold mb-1">Call Me</div>
-                     <div className="text-white font-bold text-lg">0933 664 300</div>
-                  </div>
-               </a>
-               <a href="mailto:tesfutilahun33@gmail.com" className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/30 rounded-2xl p-5 transition-all duration-300 backdrop-blur-sm">
-                  <div className="w-12 h-12 rounded-full bg-blue-400/20 flex items-center justify-center flex-shrink-0">
-                     <Megaphone className="w-5 h-5 text-blue-400" />
-                  </div>
-                  <div>
-                     <div className="text-[10px] uppercase tracking-widest text-white/40 font-bold mb-1">Email Me</div>
-                     <div className="text-white font-bold text-sm">tesfutilahun33@gmail.com</div>
-                  </div>
-               </a>
-            </div>
+            <div className="grid sm:grid-cols-3 gap-4 mb-10 text-left">
+                <a href="tel:0933664300" className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/30 rounded-2xl p-5 transition-all duration-300 backdrop-blur-sm">
+                   <div className="w-12 h-12 rounded-full bg-green-400/20 flex items-center justify-center flex-shrink-0">
+                      <span className="w-3 h-3 rounded-full bg-green-400 animate-pulse block"></span>
+                   </div>
+                   <div>
+                      <div className="text-[10px] uppercase tracking-widest text-white/40 font-bold mb-1">Call Me</div>
+                      <div className="text-white font-bold text-base md:text-lg">0933 664 300</div>
+                   </div>
+                </a>
+                <a href="mailto:tesfutilahun33@gmail.com" className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/30 rounded-2xl p-5 transition-all duration-300 backdrop-blur-sm">
+                   <div className="w-12 h-12 rounded-full bg-blue-400/20 flex items-center justify-center flex-shrink-0">
+                      <Megaphone className="w-5 h-5 text-blue-400" />
+                   </div>
+                   <div>
+                      <div className="text-[10px] uppercase tracking-widest text-white/40 font-bold mb-1">Email Me</div>
+                      <div className="text-white font-bold text-xs md:text-sm truncate">tesfutilahun33@gmail.com</div>
+                   </div>
+                </a>
+                <a href="https://t.me/tesfusha" target="_blank" rel="noreferrer" className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/30 rounded-2xl p-5 transition-all duration-300 backdrop-blur-sm">
+                   <div className="w-12 h-12 rounded-full bg-[#229ED9]/20 flex items-center justify-center flex-shrink-0">
+                      <svg viewBox="0 0 24 24" className="w-5 h-5 text-[#229ED9]" fill="currentColor">
+                         <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.56 8.61l-1.92 9.07c-.14.63-.52.79-1.05.49l-2.93-2.16-1.41 1.36c-.16.16-.29.29-.6.29l.21-2.98 5.43-4.91c.24-.21-.05-.33-.37-.12l-6.72 4.23-2.89-.9c-.63-.2-1.07-.63.04-1.09l11.27-4.35c.52-.19.98.12.78.96z"/>
+                      </svg>
+                   </div>
+                   <div>
+                      <div className="text-[10px] uppercase tracking-widest text-white/40 font-bold mb-1">Telegram DM</div>
+                      <div className="text-white font-bold text-base md:text-lg">@tesfusha</div>
+                   </div>
+                </a>
+             </div>
 
             <a href="mailto:tesfutilahun33@gmail.com"
                className="inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-xs tracking-[2px] uppercase font-bold rounded-full hover:opacity-90 transition-all shadow-[0_0_40px_rgba(139,92,246,0.4)] hover:shadow-[0_0_60px_rgba(139,92,246,0.6)] hover:-translate-y-1 group">
@@ -578,6 +589,26 @@ function MoreDesigns() {
             </div>
          ))}
       </div>
+
+      {/* Telegram Social Media Posts CTA */}
+      <div className="mt-20 p-8 md:p-12 rounded-3xl bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-100/50 flex flex-col md:flex-row items-center justify-between gap-8 shadow-sm">
+        <div className="flex-1 text-center md:text-left">
+          <span className="text-[10px] tracking-[4px] uppercase text-blue-600 font-bold mb-3 block">Telegram Channel</span>
+          <h3 className="text-2xl font-bold text-black mb-3">Looking for more social media designs?</h3>
+          <p className="text-text-muted text-sm max-w-xl font-light leading-relaxed">
+            I regularly share my latest graphic design work, social media posts, and marketing campaigns directly on my Telegram channel. Join the community to see my latest creatives.
+          </p>
+        </div>
+        <a 
+          href="https://t.me/+CyHwNt_zpbhhYzk0" 
+          target="_blank" 
+          rel="noreferrer" 
+          className="inline-flex items-center gap-3 px-8 py-4 bg-[#229ED9] text-white text-xs tracking-[2px] uppercase font-bold rounded-full hover:bg-[#229ED9]/90 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 whitespace-nowrap"
+        >
+          View Posts on Telegram
+          <ArrowRight size={16} />
+        </a>
+      </div>
     </motion.div>
   );
 }
@@ -669,7 +700,7 @@ function AppContent() {
 
             {/* Social Links */}
             <div className="flex justify-center gap-3 mb-6">
-              <a href="https://t.me/tesfusha" target="_blank" rel="noreferrer" title="Telegram"
+              <a href="https://t.me/+CyHwNt_zpbhhYzk0" target="_blank" rel="noreferrer" title="Telegram"
                 className="w-9 h-9 rounded-full bg-[#229ED9]/10 hover:bg-[#229ED9] flex items-center justify-center text-[#229ED9] hover:text-white transition-all duration-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 font-bold text-[10px]">
                 TG
               </a>
