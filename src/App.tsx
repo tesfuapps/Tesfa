@@ -283,42 +283,42 @@ function Home() {
             </p>
 
             <div className="grid sm:grid-cols-3 gap-4 mb-10 text-left">
-                <a href="tel:0933664300" className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/30 rounded-2xl p-5 transition-all duration-300 backdrop-blur-sm">
+                <a href="tel:0933664300" className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/30 rounded-2xl p-5 transition-all duration-300 backdrop-blur-sm min-w-0">
                    <div className="w-12 h-12 rounded-full bg-green-400/20 flex items-center justify-center flex-shrink-0">
                       <span className="w-3 h-3 rounded-full bg-green-400 animate-pulse block"></span>
                    </div>
-                   <div>
+                   <div className="min-w-0 flex-1">
                       <div className="text-[10px] uppercase tracking-widest text-white/40 font-bold mb-1">Call Me</div>
-                      <div className="text-white font-bold text-base md:text-lg">0933 664 300</div>
+                      <div className="text-white font-bold text-base md:text-lg truncate">0933 664 300</div>
                    </div>
                 </a>
-                <a href="mailto:tesfutilahun33@gmail.com" className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/30 rounded-2xl p-5 transition-all duration-300 backdrop-blur-sm">
+                <a href="mailto:tesfutilahun33@gmail.com" className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/30 rounded-2xl p-5 transition-all duration-300 backdrop-blur-sm min-w-0">
                    <div className="w-12 h-12 rounded-full bg-blue-400/20 flex items-center justify-center flex-shrink-0">
                       <Megaphone className="w-5 h-5 text-blue-400" />
                    </div>
-                   <div>
+                   <div className="min-w-0 flex-1">
                       <div className="text-[10px] uppercase tracking-widest text-white/40 font-bold mb-1">Email Me</div>
-                      <div className="text-white font-bold text-xs md:text-sm truncate">tesfutilahun33@gmail.com</div>
+                      <div className="text-white font-bold text-xs md:text-sm truncate" title="tesfutilahun33@gmail.com">tesfutilahun33@gmail.com</div>
                    </div>
                 </a>
-                <a href="https://t.me/tesfusha" target="_blank" rel="noreferrer" className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/30 rounded-2xl p-5 transition-all duration-300 backdrop-blur-sm">
+                <a href="https://t.me/tesfusha" target="_blank" rel="noreferrer" className="group flex items-center gap-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/30 rounded-2xl p-5 transition-all duration-300 backdrop-blur-sm min-w-0">
                    <div className="w-12 h-12 rounded-full bg-[#229ED9]/20 flex items-center justify-center flex-shrink-0">
                       <svg viewBox="0 0 24 24" className="w-5 h-5 text-[#229ED9]" fill="currentColor">
                          <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.56 8.61l-1.92 9.07c-.14.63-.52.79-1.05.49l-2.93-2.16-1.41 1.36c-.16.16-.29.29-.6.29l.21-2.98 5.43-4.91c.24-.21-.05-.33-.37-.12l-6.72 4.23-2.89-.9c-.63-.2-1.07-.63.04-1.09l11.27-4.35c.52-.19.98.12.78.96z"/>
                       </svg>
                    </div>
-                   <div>
+                   <div className="min-w-0 flex-1">
                       <div className="text-[10px] uppercase tracking-widest text-white/40 font-bold mb-1">Telegram DM</div>
-                      <div className="text-white font-bold text-base md:text-lg">@tesfusha</div>
+                      <div className="text-white font-bold text-base md:text-lg truncate">@tesfusha</div>
                    </div>
                 </a>
              </div>
 
-            <a href="mailto:tesfutilahun33@gmail.com"
-               className="inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-xs tracking-[2px] uppercase font-bold rounded-full hover:opacity-90 transition-all shadow-[0_0_40px_rgba(139,92,246,0.4)] hover:shadow-[0_0_60px_rgba(139,92,246,0.6)] hover:-translate-y-1 group">
-               Start a Project
-               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-            </a>
+            <a href="https://t.me/tesfusha" target="_blank" rel="noreferrer"
+                className="inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white text-xs tracking-[2px] uppercase font-bold rounded-full hover:opacity-90 transition-all shadow-[0_0_40px_rgba(139,92,246,0.4)] hover:shadow-[0_0_60px_rgba(139,92,246,0.6)] hover:-translate-y-1 group">
+                Start a Project
+                <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+             </a>
          </motion.div>
       </section>
     </>
